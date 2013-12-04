@@ -6,4 +6,5 @@ angular.module('everyVoteApp')
       'HTML5 Boilerplate'
       'AngularJS'
       'Karma'
+      'foobar'
     ]
