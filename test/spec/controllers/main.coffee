@@ -4,6 +4,9 @@ describe 'Controller: MainCtrl', () ->
 
   # load the controller's module
   beforeEach module 'everyVoteApp'
+  # load the BootstrapUI module
+  # FIXME below should not be commented
+  # beforeEach module 'ui.bootstrap'
 
   MainCtrl = {}
   scope = {}

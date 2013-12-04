@@ -11,7 +11,6 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'app/bower_components/angular-bootstrap/ui-bootstrap.js', 
       'app/bower_components/angular/angular.js',
       'app/bower_components/angular-mocks/angular-mocks.js',
       'app/bower_components/angular-resource/angular-resource.js',
@@ -21,7 +20,8 @@ module.exports = function(config) {
       'app/scripts/*.coffee',
       'app/scripts/**/*.coffee',
       'test/mock/**/*.coffee',
-      'test/spec/**/*.coffee'
+      'test/spec/**/*.coffee',
+      'app/bower_components/angular-bootstrap/ui-bootstrap.js' 
     ],
 
     // list of files / patterns to exclude
